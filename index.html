@@ -3,37 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Roboflow Webcam Inference</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 30px;
-        }
-        .box {
-            border: 1px solid #ccc;
-            padding: 20px;
-            max-width: 600px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Roboflow Webcam Inference</h1>
+<header>
+    <h1>Roboflow Webcam Inference</h1>
+    <p>Real-time object detection using Roboflow Inference SDK</p>
+</header>
 
-<div class="box">
+<section class="card">
+    <h2>Project Overview</h2>
     <p>
-        This website is the <b>frontend</b> for a Roboflow WebRTC-based
-        object detection system.
+        This project demonstrates a real-time object detection system
+        using Roboflow's WebRTC-based inference pipeline.
     </p>
+</section>
 
-    <p>
-        The inference runs on a Python backend using the Roboflow
-        Inference SDK.
-    </p>
+<section class="card">
+    <h2>System Architecture</h2>
+    <ul>
+        <li>Frontend: GitHub Pages (HTML, CSS)</li>
+        <li>Backend: Python + Roboflow Inference SDK</li>
+        <li>Model: Custom Roboflow-trained model</li>
+    </ul>
+</section>
 
-    <p>
-        Backend must be running separately.
-    </p>
-</div>
+<section class="card">
+    <h2>How It Works</h2>
+    <ol>
+        <li>Webcam captures video frames</li>
+        <li>Frames are streamed via WebRTC</li>
+        <li>Roboflow performs inference</li>
+        <li>Predictions are returned with annotations</li>
+    </ol>
+</section>
+
+<footer>
+    <p>Developed by Kshiteej Kadnar</p>
+</footer>
 
 </body>
 </html>
